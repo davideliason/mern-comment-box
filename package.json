@@ -1,0 +1,10 @@
+{
+  "name": "mern-comment-box",
+  "version": "1.0.0",
+  "description": "full-stack MERN app",
+  "main": "index.js",
+  "repository": "https://github.com/davideliason/mern-comment-box.git",
+  "author": "David Eliason <david@davethemaker.com>",
+  "license": "MIT",
+  "private": false
+}
