@@ -7,17 +7,23 @@ import './CommentBox.css';
 class CommentBox extends Component {
   constructor() {
     super();
-    this.state = { data: [] };
+    this.state = { 
+      data: [],
+      author: 'isaac asimov',
+      comment: '' };
   }
   render() {
     return (
       <div className="container">
         <div className="comments">
           <h2>Comments:</h2>
-          <CommentList data={DATA} />
+          <CommentList 
+              data={DATA} />
         </div>
         <div className="form">
-          <CommentForm />
+          <CommentForm 
+            author = {this.state.author}
+          />
         </div>
       </div>
     );
