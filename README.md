@@ -5,3 +5,7 @@
 ## What
 * full-stack using Node.js, MongoDB (mLab), Express, React
 
+## Modules
+* express (server)
+* body-parser (get body data from networked req)
+
