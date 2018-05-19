@@ -10,7 +10,7 @@ class CommentForm extends Component {
 
 	render(){
 		return (
-			<div>Yummmy</div>
+			<div>Future Form Here</div>
 			)
 	}
 }
